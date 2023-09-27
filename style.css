@@ -8,3 +8,24 @@
 *::before {
     box-sizing: border-box;
 }
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+}
+input[type=search] {
+    width: 220px;
+    height: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+.img-search {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -35px;
+}
